@@ -39,7 +39,7 @@ const Hero: React.FC = () => {
             className="flex flex-col sm:flex-row items-center justify-center gap-4"
           >
             <motion.a
-                href="https://github.com/NAZIMUDHEEN267/my_portfolio/blob/main/src/resume.pdf"
+                href="https://github.com/NAZIMUDHEEN267/my_profile/blob/main/src/assets/resume.pdf"
                 download="Nazimudheenti_Resume.pdf"
                 initial={{ scale: 0.9, opacity: 0 }}
                 animate={{ scale: 1, opacity: 1 }}
