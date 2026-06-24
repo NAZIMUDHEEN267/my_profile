@@ -35,8 +35,8 @@ export const PERSONAL_INFO = {
   title: "Full-Stack Web & App Developer",
   subtitle: "MERN | Expo | React Native",
   email: "nazimudheenti@gmail.com",
-  phone: "+971563419498",
-  location: "Ernakulam, Kerala, India",
+  phone: "+971562144286",
+  location: "Muwailah, Sharjah, UAE",
   website: "nazimudheen.tech",
   linkedin: "in/nazimudheen-ti-405a341b1"
 };
@@ -50,7 +50,7 @@ export const BIO_OPTIONS: BioOption[] = [
   {
     id: 'technical',
     label: 'Technical Deep-Dive',
-    content: "Full-Stack Developer proficient in the MERN ecosystem and React Native (Expo). My expertise spans the entire development lifecycle, from architecting scalable backends with Express.js and MongoDB to crafting responsive frontends using React, TypeScript, and Tailwind CSS. I have successfully implemented CI/CD pipelines, Dockerized applications, and integrated AI agents for automation. My work includes complex state management with Redux Toolkit and high-performance data processing using Redis."
+    content: "Full-Stack Developer proficient in the MERN ecosystem and React Native (Expo). My expertise spans the entire development lifecycle, from architecting scalable backends with Express.js and MongoDB to crafting responsive frontends using React, TypeScript, and Tailwind CSS. I have successfully implemented CI/CD pipelines, Dockerized applications, and integrated AI agents for automation. My work includes complex state management with Redux Toolkit."
   },
   {
     id: 'story',
@@ -64,13 +64,13 @@ export const EXPERIENCE: Experience[] = [
     id: '1',
     role: "MERN Stack Developer",
     company: "Easedementia Technologies Pvt. lmt",
-    period: "09/2025 – Present", // Note: Resume said 2025, assuming it's current or typo in resume, keeping as is
+    period: "09/2025 – 03/2026", 
     location: "Thykoodam, Ernakulam",
     description: [
       "Designing and developing full-stack applications using MERN with scalable architecture.",
       "Implementing AI agents and chatbots to automate customer interactions.",
-      "Introducing Docker and CI/CD automation to streamline deployment.",
-      "Integrating Redis for high-performance data processing."
+      "Introducing Docker and CI/CD automation to streamline deployment."
+      // "Integrating Redis for high-performance data processing."
     ]
   },
   {
@@ -114,7 +114,7 @@ export const ABOUT_CONTENT = {
     },
     {
       title: "Scalable Architecture",
-      description: "Experience with Docker, Redis, and clean coding practices to ensure high performance and maintainability."
+      description: "Experience with Docker clean coding practices to ensure high performance and maintainability."
     }
   ]
 };
@@ -164,7 +164,7 @@ export const PROJECTS: Project[] = [
     id: 'easedementia',
     title: "Easedementia Company site",
     description: "Comprehensive dementia care platform providing personalized assessments, AI-powered chat support, caregiver education, remote monitoring, and multi-user access for patients, families, and therapists.",
-    techStack: ["React", "Express", "Expo", "Typescript", "MongoDB"],
+    techStack: ["React", "Express", "Typescript", "MongoDB"],
     links: {
       web: "https://easedementia.com"
     }
@@ -178,7 +178,7 @@ export const SKILLS: SkillCategory[] = [
   },
   {
     title: "Backend & Database",
-    skills: ["Node.js", "Express.js", "MongoDB", "MERN Stack", "Redis"]
+    skills: ["Node.js", "Express.js", "MongoDB", "MERN Stack"]
   },
   {
     title: "Tools & DevOps",

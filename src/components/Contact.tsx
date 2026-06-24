@@ -106,16 +106,7 @@ const ContactSection: React.FC = () => {
 
             {/* 👉 Map Section (Right Side) */}
             <div className="md:col-span-3 w-full h-[400px] md:h-auto">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15718.333979079027!2d76.3023926534545!3d9.968568576016445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0872d782befefb%3A0x4175325de985fc4b!2sVyttila%2C%20Kochi%2C%20Ernakulam%2C%20Kerala!5e0!3m2!1sen!2sin!4v1764174635075!5m2!1sen!2sin"
-                width="100%"
-                height="100%"
-                className="rounded-2xl border border-slate-800 shadow-lg"
-                style={{ minHeight: "400px" }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              ></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14428.828653367807!2d55.4582388!3d25.29724295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sae!4v1782284448984!5m2!1sen!2sae" width="600" height="450" style={{ border: 0 }} allowFullScreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
             </div>
 
           </div>
